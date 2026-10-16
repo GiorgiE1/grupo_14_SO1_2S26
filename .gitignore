@@ -1,0 +1,30 @@
+# Discos e imagenes virtuales
+*.vdi
+*.vmdk
+*.vbox
+*.iso
+*.qcow2
+
+# Paquetes fuente y archivos comprimidos
+*.tar.gz
+*.tar.xz
+*.tar.bz2
+*.tgz
+
+# Credenciales y claves privadas
+*.pem
+*.key
+*.p12
+*.pfx
+.env
+.env.*
+
+# Claves SSH
+id_rsa
+id_ed25519
+
+# Archivos temporales
+*.log
+*.tmp
+*.swp
+*~

@@ -1,0 +1,73 @@
+NAME="Rocky Linux"
+VERSION="9.8 (Blue Onyx)"
+RELEASE_TYPE="stable"
+ID="rocky"
+ID_LIKE="rhel centos fedora"
+VERSION_ID="9.8"
+PLATFORM_ID="platform:el9"
+PRETTY_NAME="Rocky Linux 9.8 (Blue Onyx)"
+ANSI_COLOR="0;32"
+LOGO="fedora-logo-icon"
+CPE_NAME="cpe:/o:rocky:rocky:9::baseos"
+HOME_URL="https://rockylinux.org/"
+VENDOR_NAME="RESF"
+VENDOR_URL="https://resf.org/"
+BUG_REPORT_URL="https://bugs.rockylinux.org/"
+SUPPORT_END="2032-05-31"
+ROCKY_SUPPORT_PRODUCT="Rocky-Linux-9"
+ROCKY_SUPPORT_PRODUCT_VERSION="9.8"
+REDHAT_SUPPORT_PRODUCT="Rocky Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="9.8"
+5.14.0-687.57.1.el9_8.x86_64
+Arquitectura:                             x86_64
+modo(s) de operación de las CPUs:         32-bit, 64-bit
+Tamaños de las direcciones:               39 bits physical, 48 bits virtual
+Orden de los bytes:                       Little Endian
+CPU(s):                                   4
+Lista de la(s) CPU(s) en línea:           0-3
+ID de fabricante:                         GenuineIntel
+Nombre del modelo:                        11th Gen Intel(R) Core(TM) i7-11700K @ 3.60GHz
+Familia de CPU:                           6
+Modelo:                                   167
+Hilo(s) de procesamiento por núcleo:      1
+Núcleo(s) por «socket»:                   4
+«Socket(s)»:                              1
+Revisión:                                 1
+BogoMIPS:                                 7199.99
+Indicadores:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 movbe popcnt aes rdrand hypervisor lahf_lm abm 3dnowprefetch ibrs_enhanced fsgsbase bmi1 bmi2 invpcid rdseed adx clflushopt sha_ni arat md_clear flush_l1d arch_capabilities
+Fabricante del hipervisor:                KVM
+Tipo de virtualización:                   lleno
+Caché L1d:                                192 KiB (4 instancias)
+Caché L1i:                                128 KiB (4 instancias)
+Caché L2:                                 2 MiB (4 instancias)
+Caché L3:                                 64 MiB (4 instancias)
+Modo(s) NUMA:                             1
+CPU(s) del nodo NUMA 0:                   0-3
+Vulnerabilidad Gather data sampling:      Not affected
+Vulnerabilidad Indirect target selection: Mitigation; Aligned branch/return thunks
+Vulnerabilidad Itlb multihit:             Not affected
+Vulnerabilidad L1tf:                      Not affected
+Vulnerabilidad Mds:                       Not affected
+Vulnerabilidad Meltdown:                  Not affected
+Vulnerabilidad Mmio stale data:           Vulnerable: Clear CPU buffers attempted, no microcode; SMT Host state unknown
+Vulnerabilidad Old microcode:             Not affected
+Vulnerabilidad Reg file data sampling:    Not affected
+Vulnerabilidad Retbleed:                  Mitigation; Enhanced IBRS
+Vulnerabilidad Spec rstack overflow:      Not affected
+Vulnerabilidad Spec store bypass:         Vulnerable
+Vulnerabilidad Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerabilidad Spectre v2:                Mitigation; Enhanced / Automatic IBRS; PBRSB-eIBRS SW sequence; BHI SW loop, KVM SW loop
+Vulnerabilidad Srbds:                     Not affected
+Vulnerabilidad Tsa:                       Not affected
+Vulnerabilidad Tsx async abort:           Not affected
+Vulnerabilidad Vmscape:                   Not affected
+               total        used        free      shared  buff/cache   available
+Mem:            11Gi       733Mi       9,2Gi       8,0Mi       1,8Gi        10Gi
+Swap:          5,0Gi          0B       5,0Gi
+S.ficheros                Tamaño Usados  Disp Uso% Montado en
+devtmpfs                    5,7G      0  5,7G   0% /dev
+tmpfs                       5,8G      0  5,8G   0% /dev/shm
+tmpfs                       2,3G   8,6M  2,3G   1% /run
+/dev/mapper/rlm_vbox-root    44G   3,6G   41G   9% /
+/dev/sda1                   960M   497M  464M  52% /boot
+tmpfs                       1,2G      0  1,2G   0% /run/user/1000

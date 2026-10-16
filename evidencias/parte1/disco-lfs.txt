@@ -1,0 +1,15 @@
+NAME              MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
+sda                 8:0    0   50G  0 disk 
+├─sda1              8:1    0    1G  0 part /boot
+└─sda2              8:2    0   49G  0 part 
+  ├─rlm_vbox-root 253:0    0   44G  0 lvm  /
+  └─rlm_vbox-swap 253:1    0    5G  0 lvm  [SWAP]
+sdb                 8:16   0   30G  0 disk 
+└─sdb1              8:17   0   30G  0 part /mnt/lfs
+sr0                11:0    1 1024M  0 rom  
+TARGET   SOURCE    FSTYPE OPTIONS
+/mnt/lfs /dev/sdb1 ext4   rw,relatime,seclabel
+LFS=/mnt/lfs
+0022
+S.ficheros     Tamaño Usados  Disp Uso% Montado en
+/dev/sdb1         30G    24K   28G   1% /mnt/lfs
